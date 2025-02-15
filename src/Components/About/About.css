@@ -115,13 +115,13 @@ background-color: #fff;
 
 @media(max-width:768px){
     .about{
-        gap: 80px;
+        gap: 50px;
         margin: 50px 70px;
         align-items: start;
         /* background-color: #fff; */
     }
     .about h1{
-        font-size: 50px;
+        font-size: 35px;
         padding: 0;
     }
     .about-title img{

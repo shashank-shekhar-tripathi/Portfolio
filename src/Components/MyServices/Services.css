@@ -72,13 +72,13 @@
 @media(max-width:768px){
     .services{
         align-items: start;
-        gap: 70px;
+        gap: 50px;
         margin: 20px 70px;
         /* background-color: #c79090; */
     }
     .service-title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 35px;
             }
     .service-title img {
         width: 130px;

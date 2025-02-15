@@ -20,15 +20,15 @@
 .footer-top-right{
     display: flex;
     align-items: center;
-    gap: 13px;
+    gap: 10px;
 }
 .footer-email-input{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding: 14px 22px;
     border-radius: 50px;
     background:#32323B;
-    padding-right: 50px;
+    padding-right: 15px;
 }
 .footer-email-input:hover{
     border: 2px solid white;
