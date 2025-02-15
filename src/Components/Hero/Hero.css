@@ -8,7 +8,19 @@
     height: 250px;
     margin-top: 50px;
     border-radius: 50%;
+    animation: bouncing 2s infinite; /* bounce 1s infinite */
+
 }
+@keyframes bouncing {
+    0% ,100%{
+      transform: translateY(0);
+      
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+     
+  }
 .hero h1{
     text-align: center;
     width: 65%;
@@ -62,25 +74,15 @@
     .hero img{
         margin-top: 70px;
         width: 250px;
-        animation: bouncing 2s infinite; /* bounce 1s infinite */
 
     }
-    @keyframes bouncing {
-        0% ,100%{
-          transform: translateY(0);
-          
-        }
-        50% {
-            transform: translateY(-50px);
-        }
-         
-      }
+   
 
 
     .hero h1{
-        margin-top: 50px;
+        margin-top: 20px;
         width: 90%;
-        font-size: 50px;
+        font-size: 35px;
     }
     .hero p{
         width: 60%;
