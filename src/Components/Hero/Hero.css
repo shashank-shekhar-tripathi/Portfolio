@@ -62,7 +62,23 @@
     .hero img{
         margin-top: 70px;
         width: 250px;
+        animation: bouncing 1s ease-in-out infinite; /* bounce 1s infinite */
+
     }
+    @keyframes bouncing {
+        0% {
+          transform: translateY(0);
+          
+        }
+        20% {
+            transform: translateY(-100px);
+        }
+        100%{
+            transform: translateY(-100px);
+        }
+      }
+
+
     .hero h1{
         margin-top: 50px;
         width: 90%;
