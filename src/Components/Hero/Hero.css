@@ -75,19 +75,21 @@
         margin: 10px 0px;
     }
     .hero-action{
-        gap: 16px;
+        gap: 12px;
         font-size: 15px;
         font-weight: 500;
         margin-bottom: 50px;
     }
     .hero-connect{
-        padding: 20px 30px;
+        padding: 15px 20px;
         border-radius: 40px;
+        font-size: 13px;
 
     }
     .hero-resume{
-        padding: 20px 50px;
+         padding: 15px 25px;
         border-radius: 40px;
+        font-size: 13px;
     }
 } 
 

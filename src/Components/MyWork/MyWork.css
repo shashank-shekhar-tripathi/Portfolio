@@ -63,7 +63,7 @@
 
 @media(max-width:768px){
     .mywork{
-        gap: 50px;
+        gap: 30px;
         margin: 50px 30px;
         align-items: start;
         /* background-color: #fff; */
@@ -79,7 +79,7 @@
     }
     .mywork-container{
         grid-template-columns: 1fr 1fr;
-        /* gap: 30px; */
+        gap: 20px;
     }
     .mywork-container img{
         width: 100%;
@@ -88,7 +88,8 @@
     .mywork-showmore{
         padding: 20px 40px;
         font-size: 15px;
-        margin: 50px auto;
+        margin: 20px auto;
+        margin-bottom: 50px;
         cursor: pointer;
     }
 }

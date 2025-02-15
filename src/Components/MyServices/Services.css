@@ -72,7 +72,7 @@
 @media(max-width:768px){
     .services{
         align-items: start;
-        gap: 50px;
+        gap: 30px;
         margin: 20px 30px;
         /* background-color: #c79090; */
     }
